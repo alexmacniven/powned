@@ -11,9 +11,11 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = "package"
-DESCRIPTION = "My short description for my package."
-URL = "https://github.com/alexmacniven/package"
+NAME = "powned"
+DESCRIPTION = (
+    "A python package allowing you to check if your password has been pwned."
+)
+URL = "https://github.com/alexmacniven/powned"
 EMAIL = "macniven.ap@gmail.com"
 AUTHOR = "Alex Macniven"
 REQUIRES_PYTHON = ">=3.7.0"
@@ -26,6 +28,12 @@ REQUIRED = [
 
 # What packages are optional?
 EXTRAS = {
+    "dev": [
+        "pytest",
+        "rope",
+        "flake8",
+        "coverage"
+    ]
     # "fancy feature": ["django"],
 }
 
