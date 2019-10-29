@@ -20,3 +20,11 @@ def _get_pwned(prefix):
     if response.status_code == 400:
         raise InvalidPrefix("An invalid prefix was supplied.", prefix=prefix)
     return response.text.split()
+
+
+def _check_pwned(suffix, pwned_suffixs):
+    for pwned in pwned_suffixs:
+        suffix_, hits = pwned.split(":")
+        if suffix == suffix_:
+            return int(hits)
+    return 0
