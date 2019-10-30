@@ -23,7 +23,7 @@ VERSION = "1.0.0-1"
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    # "requests", "maya", "records",
+    "requests"
 ]
 
 # What packages are optional?
@@ -34,7 +34,6 @@ EXTRAS = {
         "flake8",
         "coverage"
     ]
-    # "fancy feature": ["django"],
 }
 
 # The rest you shouldn"t have to touch too much :)
