@@ -25,6 +25,6 @@ def _get_pwned(prefix):
 def _check_pwned(suffix, pwned_suffixs):
     for pwned in pwned_suffixs:
         suffix_, hits = pwned.split(":")
-        if suffix == suffix_:
+        if suffix.upper() == suffix_.upper():
             return int(hits)
     return 0
