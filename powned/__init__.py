@@ -3,4 +3,4 @@ package
 
 A python package template.
 """
-from .api import Api  # noqa F401
+from .api import check  # noqa F401
