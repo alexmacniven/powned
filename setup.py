@@ -19,7 +19,7 @@ URL = "https://github.com/alexmacniven/powned"
 EMAIL = "macniven.ap@gmail.com"
 AUTHOR = "Alex Macniven"
 REQUIRES_PYTHON = ">=3.7.0"
-VERSION = "1.0.0-1"
+VERSION = "0.1.0"
 
 # What packages are required for this module to be executed?
 REQUIRED = [
