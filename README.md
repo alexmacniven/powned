@@ -18,10 +18,6 @@ Windows, OS X, and Linux
 ## Development Setup
 For when you want to work on Powned.
 
-Clone this repository
-```shell
-> git clone https://github.com/alexmacniven/powned.git
-```
 Create a virtual environment
 ```shell
 > virtualenv venv
@@ -37,6 +33,9 @@ Run the provided test suite
 ```
 
 ## Release History
+ - 0.2.0
+   - Removes defunct `setup.py upload`
+   - Adds CONTRIBUTING.md
  - 0.1.0
    - Initial release
    - Adds password `check` functionality
