@@ -18,10 +18,6 @@ Windows, OS X, and Linux
 ## Development Setup
 For when you want to work on Powned.
 
-Clone this repository
-```shell
-> git clone https://github.com/alexmacniven/powned.git
-```
 Create a virtual environment
 ```shell
 > virtualenv venv
